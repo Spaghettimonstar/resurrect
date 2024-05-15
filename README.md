@@ -3,15 +3,15 @@ Resurrection
 
 Resurrection - Arena mod for Team Fortress 2
 
-###Description
+### Description
 
 A simple mod for Arena mode. Capturing the control point will respawn your dead teammates instead of ending the round. The capture rate is increased when the opposite team has more alive players. Players take a penalty for standing on the control point. A team wins by eliminating the enemy team or by holding the control point for a period of time.
 
-###Features
+### Features
 + Automatic votes when a map begins to enable resurrection mod.
 + Player nominated votes activated by typing ```res``` in chat.
 
-###CVars
+### CVars
 ```
 resurrect_enabled 1 // 0/1 - Enable or disable the plugin.
 resurrect_time_unlock 15 // Seconds until the control point unlocks and players can cap.
@@ -39,18 +39,18 @@ resurrect_cap_mid 0.7 // Medium capture time when both teams have the same amoun
 resurrect_cap_max 2.0 // Maximum capture time when one team has more alive players.
 ```
 
-###Commands
+### Commands
 | Name          | Admin flag    | Description                                                                      |
 | ------------- |---------------:|----------------------------------------------------------------------------------|
 | resurrect_toggle | generic b |Toggles the state of the mod. Use arguements 1 or 0 to set the state of the mod.   |
 | resurrect_vote   | vote k    | Starts a vote to toggle resurrection mod if possible.                             |
 
-###Install
+### Install
 1. Install [SourceMod >= 1.6.2](http://www.sourcemod.net)
 2. Compile `resurrect.sp` and copy `resurrect.smx` into the `sourcemod/plugins/` directory.
 3. Copy `resurrect.phrases.txt` into the `sourcemod/translations/` directory. 
 
-###[Changelog](https://github.com/akowald/resurrect/blob/master/CHANGELOG.md)
+### [Changelog](https://github.com/akowald/resurrect/blob/master/CHANGELOG.md)
 
-###License
+### License
 Released under GPLv3
